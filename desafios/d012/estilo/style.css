@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    color: white;
+    background-color: black;
+    height: 200px;
+    position: relative;
+}
+
+header > h1, p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
